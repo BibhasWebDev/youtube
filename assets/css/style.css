@@ -943,3 +943,137 @@ footer{
     font-size: 15px;
     margin-top: 46px;
   }
+  /* beauty */
+  .beauty{
+    padding: 40px 0px 160px 0px;
+  }
+  .beauty-in{
+    padding: 0px 15px;
+  }
+  .beauty-in-left{
+    height: 480px;
+    overflow: hidden;
+  }
+  .beauty-in-left img{
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  .beauty-in-right h5{
+       margin-top: 60px;
+       font-size: 20px;
+       color: #6D965E;
+       font-family: "Roboto", sans-serif;
+       font-weight: 500;
+       text-transform: capitalize;
+       letter-spacing: 0px;
+  }
+  .beauty-in-right h2{
+    margin: 25px 0px 44px 0px;
+  }
+  /* herbal-about */
+  .herbal-about{
+    padding: 100px 0px 160px 0px;
+  }
+  .herbal-about-in{
+    padding: 0px 15px;
+  }
+  .herbal-about-p{
+    display: flex;
+    align-items: center;
+  }
+  .about-left-exp{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 24px;
+  }
+  .about-yr-cntn h6{
+    text-transform: capitalize;
+    color: #444434;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 26px;
+  }
+  .about-yr-cntn p{
+    text-transform: capitalize;
+    color: #444434;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 44px;
+  }
+  .about-yr-cntn{
+    margin-left: 10px;
+  }
+  .about-yr h2{
+    font-size: 66px;
+    color: #444434;
+    font-size: 66px;
+    font-weight: 500;
+    letter-spacing: -5px;
+  }
+  .herbal-about-img img{
+    max-width: 100%;
+   }
+  .herbal-about-img{
+   position: relative;
+  }
+  .about-sub-img{
+    height: 198px;
+    width: 198px;
+    border-radius: 30px;
+    border: 10px solid #fff;
+    overflow: hidden;
+    position: absolute;
+    content: "";
+    bottom: -74px;
+    left: 30px;
+  }
+  .about-sub-img img{
+      max-width: 100%;
+      object-fit: cover;
+   }
+   .about-in-right h5{
+    font-size: 20px;
+    color: #6D965E;
+    font-weight: 500;
+   }
+   .about-in-right p{
+    padding-top: 20px;
+   }
+   .about-in-right h2{
+    padding-top: 20px;
+   }
+   .about-in-right a{
+    padding: 12px 24px;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    margin-top: 30px;
+    background-color: #6D965E;
+    font-size: 16px;
+    font-weight: 500;
+   }
+   /* our-prodcts */
+   .our-prodcts{
+    padding: 100px 0px;
+   }
+.our-prodct-cont{
+  padding-top: 80px;
+}
+.our-prodcts .container h2{
+  position: relative;
+}
+.our-prodcts .container h2::before{
+  position: absolute;
+  content: "";
+  background-color: #90F2B7;
+  height: 7px;
+  width: 197px;
+  top: 40px;
+  left: 45%;
+  z-index: -1;
+}
